@@ -1,0 +1,141 @@
+body{
+}
+
+#block{
+    width: 100%;
+}
+
+#nome{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 5px solid rgb(255, 48, 48);
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#info{
+    margin-top: 2px;
+    border-top: 1px solid rgb(255, 48, 48);
+    border-bottom: 1px solid rgb(255, 48, 48);
+}
+
+a.normal_link{
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.big_link{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    background-color: rgb(254, 254, 107);
+    text-decoration: underline;
+}
+
+#flex-container{
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+ul{
+    list-style: square;
+}
+
+#first_block{
+    font-family: 'Open Sans';
+    margin-left: 40px;
+    width: 450px;
+    
+}
+
+#second_block{
+    font-family: 'Open Sans';
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 30px;
+    height: fit-content;
+}
+
+#block_text{
+    margin: 18px;
+    font-size: 20px;
+}
+
+.section{
+    padding: 10px;
+    padding-left: 10px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(216, 70, 70);
+    border-radius: 10px;
+}
+
+ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#third_block{
+    margin-top: 200px;
+    width: 100%;
+    height: fit-content;
+}
+
+#fourth_block{
+    margin-top: 300px;
+    width: 100%;
+    height: fit-content;
+}
+
+.titolo{
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 8px solid rgb(255, 48, 48);
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.title{
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#header{
+    background-color: rgb(216, 70, 70);
+    color: white;
+    padding: 27px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    border-radius: 10px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+#tb_content, #fb_content{
+    margin-left: 50px;
+    font-family: 'Open Sans';
+}
+
+#anno{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
